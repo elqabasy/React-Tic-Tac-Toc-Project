@@ -1,0 +1,41 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+
+
+
+
+/** START HERE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Header {
+  background-color: rgb(71, 69, 69);
+  /* height: 80px; */
+}
+
+
+.board {
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  background-color: #282c34;
+}
+
+
+Footer {
+  max-height: 50px;
+
+  background-color: rgb(8, 122, 222);
+}
